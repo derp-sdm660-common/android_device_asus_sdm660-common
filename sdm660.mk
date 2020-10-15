@@ -447,7 +447,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal@2.0-service.asus_sdm660
 
 # USB
 PRODUCT_PACKAGES += \
