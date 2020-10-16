@@ -164,9 +164,6 @@ PRODUCT_PACKAGES += \
     qcom.fmradio \
     qcom.fmradio.xml
 
-PRODUCT_BOOT_JARS += \
-    qcom.fmradio
-
 # Google Camera Go
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/com.google.android.apps.cameraslite.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.apps.cameraslite.xml
