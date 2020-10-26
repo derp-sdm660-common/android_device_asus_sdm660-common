@@ -6,3 +6,7 @@ allow tee cdfinger_data_file:dir create_dir_perms;
 allow tee cdfinger_data_file:file create_file_perms;
 
 allow tee system_data_file:dir create_dir_perms;
+allow tee system_data_file:file r_file_perms;
+
+allow tee fingerprintd_data_file:dir rw_dir_perms;
+allow tee fingerprintd_data_file:file create_file_perms;
