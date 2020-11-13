@@ -1,1 +1,2 @@
- allow system_server sdcardfs:file r_file_perms;
+allow system_server sdcardfs:file r_file_perms;
+allow system_server app_zygote:process { getpgid };
