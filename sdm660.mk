@@ -496,3 +496,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8998/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8998/display
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8998/audio
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/msm8998
